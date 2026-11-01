@@ -47,7 +47,7 @@ const App = () => {
       link='https://kurisudevu.itch.io/orenji'
       image='https://img.itch.zone/aW1nLzk0MTc2MzIucG5n/315x250%23c/v3s3gc.png'
       title='orenji'
-      description="Orenji is a platform game that's been inspired by mario, and pokemnon platform games. Win by getting the flag. But can you do it without losing any of your heart?  Or you need to sacrifice one or two of them?"
+      description="Orenji is a platform game that's been inspired by mario, and pokemon platform games. Win by getting the flag. But can you do it without losing any of your heart?  Or you need to sacrifice one or two of them?"
       prompt='Click to Play'
       promptIcon='games'
     />
@@ -179,7 +179,7 @@ const App = () => {
             <div className={styles.partition}>
               <h1 id="contacts">My Contacts</h1>
               <ul>
-                <li><a id="myEmail" href="https://mail.google.com/mail/?view=cm&fs=1&to=chrismclaind@gmail.com" target="_blank">chrismclaind@gmail.com</a></li>
+                <li><a id="myEmail" href="https://mail.google.com/mail/?view=cm&fs=1&to=chrsmclnd@gmail.com" target="_blank">chrmsclnd@gmail.com</a></li>
                 <li><a href="https://www.linkedin.com/in/christopher-landas-0089a6216/" target="_blank">LinkedIn</a></li>
                 <li><a href="https://github.com/ChristopherLandas" target="_blank">GitHub</a></li>
               </ul>
@@ -200,7 +200,8 @@ const App = () => {
                 <li>Game Development</li>
                 <li>Frontend Development (ReactJs)</li>
                 <li>Application Development</li>
-                <li>Full-Stack Development (MERN stack)</li>
+                <li>Odoo Development</li>
+                {/* <li>Full-Stack Development (MERN stack)</li> */}
               </ul>
             </div>
           </div>
