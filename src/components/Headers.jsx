@@ -22,13 +22,13 @@ const Header = () => {
 
       <div className={clsx(styles.navigations, styles.selections)}>
         <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contacts</a>
-        <a href="#">Email</a>  
+        <a href="#aboutMe">About</a>
+        <a href="#contacts">Contacts</a>
+        <a href="#myEmail:~:text=chrismclaind%40gmail.com">Email</a>  
       </div>
 
       <div className={clsx(styles.navigations, styles.menu)}>
-        <a href="#">
+        <a href="https://github.com/christopherlandas" target='_blank'>
           <AiFillGithub size={screen.width >= 768? 45: screen.width >= 480? 39: 36}/>
         </a>
       </div>  

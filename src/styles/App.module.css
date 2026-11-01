@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
 .main{
   position: relative;
   display: flex;
@@ -20,7 +24,6 @@
 }
 
 .panels:nth-of-type(5){
-  background-color: aliceblue;
   padding-block: 20px 50px;
 }
 
@@ -130,10 +133,17 @@
   padding-top: 30px;
 }
 
+.projects .content .techsbox{
+  display: inline-block;
+  flex-grow: 1;
+  padding-top: 35px;
+}
+
 .projects .content .techs{
-  height: 150px;
+  height: 140px;
   aspect-ratio: 1;
 }
+
 
 footer .divOut{
   height: 25vh;

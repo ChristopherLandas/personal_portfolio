@@ -15,6 +15,7 @@ import css from '../assets/TechIcons/css-3.png'
 import js from '../assets/TechIcons/js.png'
 import sql from '../assets/TechIcons/mysql.png'
 import react from '../assets/TechIcons/physics.png'
+import odoo from '../assets/TechIcons/odoo.png'
 import py from '../assets/TechIcons/python.png'
 
 import ssi from '../assets/projects/ssi.png'
@@ -76,7 +77,7 @@ const App = () => {
       <div className={styles.main}>
         <ParallaxTitle/>
 
-        <div className={clsx(styles.panels)}>
+        <div id="aboutMe" className={clsx(styles.panels)}>
           <div className={styles.greetings}>
             <div className={styles.pfp}>
               <div className={styles.image}>
@@ -92,6 +93,8 @@ const App = () => {
               <div className={styles.mid}>
                 Hello! my name is Christopher; you can call me chris or kurisu for short, whatever floats your boat. I live in Rizal, Philippines; and I graduated in Cum Laude in my course Computer Science at STI College.
                 My skills Involve creating 2D unity Game, Application Development, Basic Web Development, and many more. If you&apos;re asking why this is my career, well I&apos;m somewhat eccentric yet logical thinker, and my Personality INTP-T. So yeah, what can you say.
+                <p/>
+                I am currently working as Python Programmer specializing in Odoo Development for 2 years now.
                 <p/>
                 Anyways, feel free to check my projects down below, and If for business or formal purposes, kindly sent me and Email that can be found below. 
                 <p/>
@@ -138,18 +141,33 @@ const App = () => {
         </div>
 
 
-        <div className={styles.panels} style={{height: '20vh'}}>
+        <div className={styles.panels} style={{height: '25vh'}}>
           <div className={styles.projects}>
             <div className={styles.title}>
               <LinedTitle title={'What I used'} width={'550px'} titleSize={'3.3rem'}/>
             </div>
-            <div className={styles.content}>
-              <img className={styles.techs} src={csharp} alt="" />
-              <img className={styles.techs} src={css} alt="" />
-              <img className={styles.techs} src={js} alt="" />
-              <img className={styles.techs} src={sql} alt="" />
-              <img className={styles.techs} src={react} alt="" />
-              <img className={styles.techs} src={py} alt="" />
+            <div className={styles.content} style={{display: 'flex', textAlign: 'center'}}>
+              <div className={styles.techsbox}>
+                <img className={styles.techs} src={py} alt="" />
+              </div>
+              <div className={styles.techsbox}>
+                <img className={styles.techs} src={csharp} alt="" />
+              </div>
+              <div className={styles.techsbox}>
+                <img className={styles.techs} src={css} alt="" />
+              </div>
+              <div className={styles.techsbox}>
+                <img className={styles.techs} src={js} alt="" />
+              </div>
+              <div className={styles.techsbox}>
+                <img className={styles.techs} src={sql} alt="" />
+              </div>
+              <div className={styles.techsbox}>
+                <img className={styles.techs} src={react} alt="" />
+              </div>
+              <div className={styles.techsbox}>
+                <img className={styles.techs} src={odoo} alt=""/>
+              </div>
             </div>
           </div>
         </div>
@@ -159,9 +177,9 @@ const App = () => {
           <hr />
           <div className={styles.divOut}>
             <div className={styles.partition}>
-              <h1>My Contacts</h1>
+              <h1 id="contacts">My Contacts</h1>
               <ul>
-                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=chrismclaind@gmail.com" target="_blank">Chrismclaind@gmail.com</a></li>
+                <li><a id="myEmail" href="https://mail.google.com/mail/?view=cm&fs=1&to=chrismclaind@gmail.com" target="_blank">chrismclaind@gmail.com</a></li>
                 <li><a href="https://www.linkedin.com/in/christopher-landas-0089a6216/" target="_blank">LinkedIn</a></li>
                 <li><a href="https://github.com/ChristopherLandas" target="_blank">GitHub</a></li>
               </ul>
